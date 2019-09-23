@@ -45,7 +45,7 @@ class Game {
             }
             return false;
         }
-        if (rule.biggerMove(cards, this.prevMove)) {
+        if (rule.biggerMove(cards, this.prevMove, this.currentLevel)) {
             this.prevMove = cards;
             this.player[this.turn].move(cards);
             this.turn = 1 - this.turn;
