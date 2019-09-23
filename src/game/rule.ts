@@ -171,9 +171,6 @@ function majorCard(cards: Card[]): Card {
             j++;
         }
     }
-    // if (cardI.name == undefined || cardJ.name == undefined) {
-    //     throw "Not major with minor";
-    // }
     return i>j ? cardI : cardJ;
 }
 

@@ -196,3 +196,13 @@ describe('Correctly checking move is valid', () => {
         ])).toBeFalsy()
     })
 });
+
+describe('Correctly checking is bigger', () => {
+    it('single card is bigger', () => {
+        expect(rule.biggerMove([
+            {name: '3', symbol: 'Spade'}
+        ], [
+            {name: '2', symbol: 'Spade'}
+        ], '4')).toBeTruthy();
+    })
+});
