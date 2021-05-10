@@ -43,7 +43,7 @@
     "cors": "^2.8.5",
     "feathers-nedb": "^5.0.1",
     "helmet": "^3.21.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "nedb": "^1.8.0",
     "serve-favicon": "^2.5.0",
     "winston": "^3.2.1"
